@@ -1,0 +1,26 @@
+##
+# writen by Ramon Brooker <rbrooker@aetherealmind.com>
+# (c) 2015
+##
+
+# all commands are placed here for use within Tau
+---
+commands:
+    # restart device
+  restart_device: "/usr/bin/shutdown -r now "
+    # ps command
+    ps: "ps aux"
+    # hostname
+    hostname: "hostname"
+  # net-ip
+    
+  # test_dns
+  test-dns: "host google.com"
+  # netcat
+    whatports: "netcat -napt | grep -i LISTEN"
+  # run updates
+  run-updates: "yum -y update"
+  # install 
+
+
+

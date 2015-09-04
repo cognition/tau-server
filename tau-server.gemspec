@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ramon Brooker"]
   spec.email         = ["rbrooker@aetherealmind.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Tau is a server side ruby program that connects to multiple servers for configuration. A very light weigth, command line tool similar to salt.}
+  spec.description   = %q{Tau is a server side ruby program that connects to multiple servers for configuration, and remote maintaince, by creating an ssh handshake that sends a discrete set of commands.}
+  spec.homepage      = "https://github.com/cognition/tau-server"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
@@ -29,4 +29,12 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_dependency "thor" 
+  spec.add_dependency "net-ssh"
+
+
+
+
+
+
 end
