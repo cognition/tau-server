@@ -1,6 +1,6 @@
 ##
 # writen by Ramon Brooker <rbrooker@aetherealmind.com>
-# (c) 2015
+# (c) 2017
 ##
 
 # require "tau/server/version"
@@ -23,7 +23,7 @@ module Tau
          option    :domain, :type => :string, :banner => "specifies a building(s) -- NOT USED"
          option    :ibid, :type => :boolean, :banner => "uses the previous commands selections"
 
-          option    :h, :type  => :boolean, :banner => "Displays this Help"
+        option    :h, :type  => :boolean, :banner => "Displays this Help"
 
         desc "optionslist", "prints if the options list"
         def optionslist

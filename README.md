@@ -1,24 +1,11 @@
 # Tau::Server
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/tau/server`. To experiment with that code, run `bin/console` for an interactive prompt.
+[work in progress]
+Tool for running command on remote systems.
+Tau is a server side ruby program that connects to multiple servers for configuration. A very light weigth, command line tool similar to salt.
+By creating an ssh handshake that sends a discrete set of commands.
 
-TODO: Delete this and the text above, and describe your gem
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'tau-server'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install tau-server
 
 ## Usage
 
@@ -26,9 +13,8 @@ Add command to lib/config/commands.yml
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 ## Contributing
 
@@ -39,3 +25,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+
+## Homepage    
+
+https://github.com/cognition/tau-server
