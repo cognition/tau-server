@@ -6,8 +6,8 @@
 # require "tau/server/version"
 # require "tau/server/tau_command"
 # require "thor"
-require File.expand_path("server/version")
-require File.expand_path("server/tau_command")
+require "version"
+#require tau_command
 require "thor"
 
 
